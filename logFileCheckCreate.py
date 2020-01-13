@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #Little function that checks if a loFile exists, if not it creates the file
-import os
+import logging, os, time
 
 logFile = "/path/to/logfles/dataLogFile.log"
 
